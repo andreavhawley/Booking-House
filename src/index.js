@@ -27,27 +27,9 @@ app.use(express.json()); //modulo express: tiene un modulo que nos puede servir 
 
 //RUTAS---------------------**********
 app.use(require('./routes/rutas'))
-//como tendremos varias rutas, es recomendable hacer una carpeta para las rutas
-//ruta básica de como haremos las rutas 
-// la diagonal como página principal
-/* app.get('/', (req, res) => {
-    res.send('PASÓ');
-});
-app.get('/home', (req, res) => {
-    res.send('Estás en el HOME');
-});
-app.get('/zapatos', (req, res) => {
-    res.send('Estás en el lista de zapatos');
-}); */
-
-//ademas de mandar texto plano (con un send), pudieramos mandar un json. De send a json
-/* app.get('/', (req, res) => {
-    res.json({"name":"John Doe"});
-}); */
 
 //Ahora ya podemos decir esto: empezando servidor
 app.listen(app.get('port'));
 console.log("Mi Primer Servidor");
-
 //PERO yo quiero leer mi aplicacion desde un puerto
 //para poder accesar a mi servidor desde un explorador, entonces diremos app.listen(3000); '3000' por qué?
