@@ -1,0 +1,14 @@
+[
+    {
+        "id_Asignaciones" : "01",
+        "nombre_Asignaciones" : "Matemáticas",
+        "status_asignaciones" : "disponible", 
+        "precio" : "$1,200"
+    },
+    {
+        "id_Asignaciones" : "01",
+        "nombre_Asignaciones" : "Matemáticas",
+        "status_asignaciones" : "disponible", 
+        "precio" : "$1,200"
+    }
+]

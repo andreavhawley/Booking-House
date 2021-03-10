@@ -10,9 +10,15 @@ const{Router} = require('express');
 //nos falta inicializar la variable router
 const router = Router();
 
+const usuarios  = require('./data.json');
+console.log(usuarios);
 //cambiamos 'app' por 'router'
 router.get('/', (req, res) => {
-    res.json({"name":"John Doe"});
+    const data = {
+        "name" : "John Doh",
+        "id" : "1234"
+    };
+    res.json(data);
 });
 
 /* O, en lugar de hacer una constante podemos crear una constante express (como en el index), equivalente a el de usar las llavecitas

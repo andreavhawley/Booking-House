@@ -24,9 +24,9 @@ app.set('port', 3000);
 // uno de los MIDDLEWARES. Morgan no es el unico que podamos a utilizar
 app.use(morgan('dev'));
 app.use(express.json()); //modulo express: tiene un modulo que nos puede servir para parsear toda la info que venga desde los jsons 
-
+app.set('json spaces',2);
 //RUTAS---------------------**********
-app.use(require('./routes/rutas'))
+app.use('/api/juegos', require('./routes/rutas'));
 
 //Ahora ya podemos decir esto: empezando servidor
 app.listen(app.get('port'));
