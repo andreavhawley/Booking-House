@@ -1,0 +1,47 @@
+.home{
+    padding: 300px 5%;
+    background-image: url('../../../assets/rsc/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.content{
+    color: #fff;
+}
+
+.custom-btn {
+    font-size: 18px;
+    background-color: #326AC9;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.custom-btn:hover, .custom-btn:focus, .custom-btn :active {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.about{
+    background-color: #F6F8F7;
+}
+
+.about-image img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.reviews-title{
+    text-align: center;
+}
