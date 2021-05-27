@@ -1,0 +1,26 @@
+<div class="row">
+    <div id="portadaCatalogo" class="row">
+        <h4>Catálogo</h4>
+    </div>
+    
+    <div class="row valign-wrapper" id="filtro">
+        <a href="#" onmouseover="casaEnVenta" class="col 12 push-l1">Venta</a>
+        <a href="#" onmouseover="casaRenta" class="col 12 push-l1">Renta</a>
+        <p class="col l2 s2 pull-l2">Ordenado por:
+            <select name="filtrados" id="lista">
+                <option value="1">Destacados</option> 
+                <option value="2">Mayor precio</option> 
+                <option value="3">Menor precio</option> 
+                <option value="4">Número de habitaciones</option>
+                <option value="5">Número de baños</option> 
+                <option value="6">Cantidad de pisos</option> 
+            </select>
+        </p>
+    </div>
+    <div class="row">
+        <app-product></app-product>
+        <app-product></app-product>
+        <app-product></app-product>
+    </div>
+    </div>
+    
