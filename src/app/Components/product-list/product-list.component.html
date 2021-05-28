@@ -1,32 +1,24 @@
+<div class="portadaCatalogo">
+    <img src="./assets/imgs/portadaCatalogo.jpg">
+    <h4 class="first-text">Catálogo</h4>
+</div>
+<div class="row filtro">
+    <div class="col l1 push-l1"><p class="right-align">Venta</p></div>
+    <div class="col l7 push-l1"><p>Renta</p></div>
+    <div class="col l2">
+        <select class="browser-default">
+        <option value="" disabled selected>Filtrar por</option>
+        <option value="1">Destacados</option>
+        <option value="2">Mayor precio</option>
+        <option value="3">Menor precio</option></select>
+    </div>
+
+
+</div>
 <div class="row">
-    <div class="row portadaCatalogo">
-        <img src="./assets/imgs/portadaCatalogo.jpg">
-        <h4 class="first-text">Catálogo</h4>
-    </div>
-    
-    <div class="row valign-wrapper filtro ">
-        <div class="col-l4 push-l1">
-            <a href="#" onmouseover="casaEnVenta">Venta</a>
-        </div>
-        <div class="col-l4">
-            <a href="#" onmouseover="casaRenta">Renta</a>
-        </div>
-        <div class="col l6">
-            <p> Ordenado por:</p>
-            <div class="input-field col l6 s12">    
-                <select>
-                    <option value="1">Destacados</option> 
-                    <option value="2">Mayor precio</option> 
-                    <option value="3">Menor precio</option> 
-                    <option value="4">Número de habitaciones</option>
-                    <option value="5">Número de baños</option> 
-                    <option value="6">Cantidad de pisos</option> 
-                </select>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <app-product></app-product>
-    </div>
-    </div>
+    <app-product></app-product>
+    <app-product></app-product>
+    <app-product></app-product>
+</div>
+
     

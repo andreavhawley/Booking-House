@@ -1,0 +1,40 @@
+#title{
+    font-size:3vw;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+    margin-right: 0!important;
+    color: #326ac9;
+}
+
+#subtitle{
+    font-size: 1.5vw;
+    font-family: 'Montserrat';
+}
+
+#body-margin{
+    padding-right: 60px !important;
+    padding-left: 60px!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+/***1200px***/
+@media only screen and (max-width:1000px){
+    .top{
+        margin-bottom: 10px;
+        height: auto;
+    }
+}
+/***/
+@media only screen and (max-width:800px){
+    .top{
+        margin-bottom: 10px;
+        height: auto;
+    }
+    #smalltitle{
+        font-size:2vw;
+    }
+}

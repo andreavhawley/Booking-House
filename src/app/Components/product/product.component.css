@@ -1,32 +1,56 @@
 p{
-    font-size: 32px;
+    font-size: 2vw;
     color: #464646;
     font-weight: 450;
 }
 
-span{
-
+small{
+    font-size: 1vw;
 }
 
-p,span, small {
+span{
+    color: #326ac9;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+p, span, small {
     font-family: 'Montserrat';
 }
 
 button {
-    display: inline-flex;
     background-color: #ffffff;
     border: 1px solid #326ac9;
     color: #326ac9;
     border-radius: 3px;
     font-family: 'Playfair Display', serif;
-    padding: 10px 20px;
+    font-size: 1.4vw;
+    padding: 10px 30px;
+    
 }
 
 button {
     transition-duration: 0.4s;
-  }
+}
   
 button:hover {
     background-color: #326ac9;
     color: white;
-  }
+}
+
+
+.card-content{
+    display: grid;
+    padding: 20px;
+}
+
+.items {
+    align-self: center;
+    margin-bottom: 0;
+      
+}
+
+.carta {
+    box-shadow: 0px 1px 18px 0px #326ac9;
+    margin: 20px;
+}
