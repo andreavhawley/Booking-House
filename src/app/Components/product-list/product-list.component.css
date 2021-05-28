@@ -1,0 +1,20 @@
+.portadaCatalogo{
+    overflow: hidden;
+    position: relative;
+    margin: -200px 0px 0px 0px;
+}
+
+.first-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    overflow: visible;
+    position: absolute;
+    top: 250px;
+    left: 160px;
+    color: #ffffff;
+}
+
+.filtro{
+    font-family: 'Montserrat';
+
+}

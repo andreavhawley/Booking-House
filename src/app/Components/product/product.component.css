@@ -1,0 +1,32 @@
+p{
+    font-size: 32px;
+    color: #464646;
+    font-weight: 450;
+}
+
+span{
+
+}
+
+p,span, small {
+    font-family: 'Montserrat';
+}
+
+button {
+    display: inline-flex;
+    background-color: #ffffff;
+    border: 1px solid #326ac9;
+    color: #326ac9;
+    border-radius: 3px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px 20px;
+}
+
+button {
+    transition-duration: 0.4s;
+  }
+  
+button:hover {
+    background-color: #326ac9;
+    color: white;
+  }
