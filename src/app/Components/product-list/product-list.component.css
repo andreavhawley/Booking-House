@@ -7,23 +7,24 @@
 
 .first-text {
     font-family: 'Playfair Display', serif;
-    font-size: 80px;
+    font-size: 6vw;
     font-weight: bold;
     overflow: visible;
     position: absolute;
     top: 250px;
-    left: 160px;
+    left: 120px;
     color: #ffffff;
 }
 
-p {
+a {
     color: #3d3d3d;
 }
 
 .filtro{
     font-family: 'Montserrat';
-    font-size: 1vw;
-    padding: 0px;
+    font-size: 1.5vw;
+    padding-top: 20px;
+    align-content: center;
 }
 
 select {
@@ -32,6 +33,23 @@ select {
     color: #326ac9;
     border-radius: 3px;
     font-family: 'Montserrat';
-    font-size: .8vw;
+    font-size: 1vw;
     padding: 10px 30px;
 }
+
+.venta {
+    transition-duration: 0.4s;
+}
+
+.venta:hover {
+    font-weight: bold;
+}
+
+.renta {
+    transition-duration: 0.4s;
+}
+
+.renta:hover {
+    font-weight: bold;
+}
+

@@ -1,4 +1,4 @@
-var instance = M.FormSelect.getInstance(elem);
+var instance = M.FormSelect.getInstance(elem);  
 
 document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('select');
@@ -7,3 +7,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
   instance.getSelectedValues();
   instance.destroy();
+
