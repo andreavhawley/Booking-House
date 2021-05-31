@@ -1,0 +1,161 @@
+#title{
+    font-size:3vw;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+    margin-right: 0!important;
+    align-content: center;
+
+}
+
+#subtitle{
+    font-size: 1.5vw;
+    font-family:serif;
+}
+
+#body-margin{
+    padding-right: 60px !important;
+    padding-left: 60px!important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#marg2{
+    padding-right: 100px !important;
+    padding-left: 100px!important;
+}
+
+#marg2 .row{
+    padding-bottom: 5px;
+}
+
+#bluebutt{
+    width: 250px;
+    background-color: royalblue;
+}
+
+textarea {
+    height: 150px;
+    width: 100%;
+    border-color:#c2c2c2;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+#navB{
+    padding-right: 60px !important;
+}
+
+#box{
+    position:absolute;
+    top: 250px;
+    left: 100px;    
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    /*overflow: hidden;*/
+}
+
+#bg {
+    height: 30%;
+    overflow: hidden;
+}
+#bg img{
+    position: relative;
+    top: -300px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#offers{
+    width: 100%;
+    overflow: hidden;
+}
+
+div.polaroid {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+div.container {
+  padding: 10px;
+}
+
+#smalltitle{
+    font-size:1vw;
+}
+
+#map{
+    width: 105%;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #3d3d3d;
+    font-size: 1vw;
+}
+
+
+/***1200px***/
+@media only screen and (max-width:1000px){
+    .top{
+        margin-bottom: 10px;
+        height: auto;
+    }
+    #smalltitle{
+        font-size:1.5vw;
+    }
+    
+    footer{
+    font-size: 1.5vw;
+    }
+}
+/***/
+@media only screen and (max-width:800px){
+    .top{
+        margin-bottom: 10px;
+        height: auto;
+    }
+    #smalltitle{
+        font-size:2vw;
+    }
+    #title{
+        font-size: 5vw;
+    }
+    #marg2{
+    padding-right: 10px !important;
+    padding-left: 10px!important;
+    }
+    footer{
+    font-size: 2.3vw;
+    }
+}
+
+/***600px***/
+@media only screen and (max-width:500px){
+    #smalltitle{
+        font-size:3.2vw;
+    }
+    #subtitle{
+        font-size: 3.5vw;
+    }
+    #marg2{
+    padding-right: 10px !important;
+    padding-left: 10px!important;
+    }
+    
+    #map{
+    width: 110%;
+    overflow: hidden;
+    }
+}
