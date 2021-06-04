@@ -3,43 +3,13 @@
     <head>
         
       <link rel="stylesheet" type="text/css" href="contact.component.css">
-        
       
+
+     <!------Esto esta afectando al alineamiento del header y footer; no se por que------>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
-      <title>Home</title>
-    
+            
     </head>
     <body>
-        <!------Navbar------> 
-       <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white fs-3" style="padding-left: 60px!important;">
-          <div class="container-fluid align-items-end" id="cont-menu">  
-              <a class="navbar-brand" href="#">
-                  <i class="fas fa-house-damage fa-2x"></i>
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              -->
- 
-              <!-- Navbar Options-->
-             <!-- <div class="collapse navbar-collapse justify-content-sm-evenly" id="navbarNavAltMarkup" >
-                <div class="navbar-nav" style="padding-left: 90px"id="subtitle">
-                    <a class="nav-item nav-link" id=navB href="#">Inicio</a>
-                    <a class="nav-item nav-link" id=navB href="#">Contacto</a>
-                    <a class="nav-item nav-link"id=navB href="#"> Cat&aacute;logo</a>
-                </div>
-                  
-
-              
-              </div>
-              <a class="nav-link justify-content-end" id=navB href="#">
-                      <i class="fas fa-user-circle fa-3x " style="color:royalblue"></i>
-              </a>
-                  
-            </div>
-        </nav> -->
-        
         <!------Top img------>
         <div id="bg">
             <div>
@@ -48,21 +18,21 @@
         </div>
         
         <!------Titulo centrado------>
-     <!--   <center>-->
+        <div>
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-8">
-                   <!-- <center>--><p id="title" style="color:#3d3d3d; padding-top: 60px">Cont&aacute;ctanos </p>
-                   <!-- </center>-->
+                    <div><p id="title" style="color:#3d3d3d; padding-top: 60px">Cont&aacute;ctanos 
+                    </div>
                 </div>
                 <div class="col-md-2"></div>
             </div>
-      <!--  </center>-->
+        </div>
         
         <!------Inputs------>
         <div id="marg2">
             <!------Filled in Info------>    
-            <!-- <center>-->
+            <div>
                 <div class="row" id="body-margin">
                     <!------Nombre------>    
                     <div class="col-md-6">
@@ -101,7 +71,7 @@
                         <div class="input-group mb-3">
                             
                         <div class="input-group">
-                          <input placeholder="Selecciona una Opci&oacute;n" type="text" class="form-control" aria-label="Text input with dropdown button">
+                          <input placeholder="Selecciona una Opci&oacute;n" type="text" class="form-control" aria-label="Text input with dropdown button" id="inselect">
                           <div class="input-group-append">
                             <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
                             <div class="dropdown-menu">
@@ -129,9 +99,14 @@
                     <textarea></textarea>
                 </div>
                 <br>
-                <button class="btn btn-primary btn-lg" type="submit" id="bluebutt">Enviar mensaje</button>
+                <div class="row" id="body-margin">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary btn-lg" type="submit" id="bluebutt">Enviar mensaje</button>
+                    </div>
+                </div>
 
-            <!-- </center>-->
+            </div>
         </div>
         <br>
         
@@ -142,41 +117,41 @@
                 <!------Top------>    
                 <div class="row">
                     <div class="col-md-6">
-                     <!--   <center>-->
+                        <div>
                             <i class="fas fa-map-marker-alt fa-2x"></i>
                             <p id="subtitle"><b>Direcc&oacute;n</b>
                             </p>
                             <p id="smalltitle">Mariano Matamoros, #1626,<br> Fracc. Catavi&ntilde;a, Mexicali.</p>
-                       <!-- </center>-->
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <!-- <center>-->
+                        <div>
                             <i class="fas fa-phone fa-2x fa-flip-horizontal"></i>
                             <p id="subtitle"><b>Tel&eacute;fono</b>
                             </p>
                             <p id="smalltitle">(686) 185 68 40</p>
-                        <!--</center> -->
+                        </div>
                     </div>
                 </div>
                 <br>
                 <!------Bottom------>    
                 <div class="row">
                     <div class="col-md-6">
-                        <!-- <center>-->
+                        <div>
                             <i class="fas fa-clock fa-2x"></i>
                             <p id="subtitle"><b>Horario</b>
                             </p>
                             <p id="smalltitle">L-V: 8:00 AM - 6:00 PM
                             <br> S:8:00 AM - 2:00 PM</p>
-                        <!--</center>-->
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <!--<center>-->
+                        <div>
                             <i class="fas fa-envelope fa-2x"></i>
                             <p id="subtitle"><b>Email</b>
                             </p>
                             <p id="smalltitle">contacto@inmobiliaria.com</p>
-                        <!--</center>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -185,36 +160,6 @@
                  <img id="map" src="https://64.media.tumblr.com/51172efcd757c9dd924d83815b30caec/40acb8ee7fa77831-23/s2048x3072/d749ac8a5dbef98dd41c36b2f41f9f8d2e3c3198.png">  
             </div>
         </div>
-        
-        <!------Footer------>
-      <!--  <div>
-            <footer>
-                <div class="row" id="body-margin" style="color: white">-->
-                    <!------Mid_L----    
-                    <br>
-                    <div class="col-md-2">
-                        2021 Google LLC                 
-                    </div>
-                    <div class="col-md-2">
-                        T&eacute;rminos y condiciones
-                    </div>
-                    <div class="col-md-2">
-                        Aviso de Privacidad
-                    </div>
-                    <div class="col-md-6 justify-content-end">
-                        <div class="d-flex flex-row-reverse">
-                          <div id="navB"><i class="fab fa-instagram fa-2x"></i></div>
-                          <div id="navB"><i class="fab fa-twitter fa-2x"></i></div>
-                          <div id="navB"><i class="fab fa-facebook-f fa-2x"></i></div>
-                        </div>
-                            
-                    </div>
-                    
-                </div>                    
-            </footer>
-        </div>-->
-        
-        
     </body>
     
     <!-- Bootstrap JS -->
@@ -224,6 +169,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <!-- ICONS -->
-    <script src="https://kit.fontawesome.com/64fbbc4af2.js" crossorigin="anonymous"></script>
-    
+    <script src="https://kit.fontawesome.com/64fbbc4af2.js" crossorigin="anonymous"></script>    
 </html>

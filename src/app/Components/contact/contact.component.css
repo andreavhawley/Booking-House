@@ -1,10 +1,11 @@
 #title{
     font-size:3vw;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family:serif;
     margin-bottom: 0;
     margin-right: 0!important;
-    align-content: center;
+    text-align: center;
+
 
 }
 
@@ -30,6 +31,7 @@
 }
 
 #bluebutt{
+    height: 5vh;
     width: 250px;
     background-color: royalblue;
 }
@@ -42,9 +44,12 @@ textarea {
     padding: 15px;
 }
 
+#inselect{
+    width: unset;
+}
 
-#navB{
-    padding-right: 60px !important;
+#inselect +.input-group-append{
+    align-items: center;
 }
 
 #box{
@@ -56,16 +61,16 @@ textarea {
 body{
     height: 100%;
     margin: 0;
-    /*overflow: hidden;*/
 }
 
 #bg {
-    height: 30%;
+    height: 10vw;
     overflow: hidden;
+    position: relative;
 }
 #bg img{
-    position: relative;
-    top: -300px;
+    position: absolute;
+    top: -350px;
 }
 
 html,body{
