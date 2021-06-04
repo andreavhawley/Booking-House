@@ -1,17 +1,17 @@
   <div class="col l10 s6 m6 componente">
     <div class="card horizontal carta">
       <div class="card-image">
-        <img src="./assets/imgs/1.jpg">
+        <img src="./assets/imgs/{{data.img}}.jpg">
       </div>
       
       <div class="card-stacked">
         <div class="card-content">
           <div class="row items">
-            <div class="col l12"><p>Casa en Residencial</p></div>
-            <div class="col l12"><p>Montecarlo I</p></div>
-            <div class="col l12"><small id="subtitulo">Renta</small></div>
+            <div class="col l12"><p>{{data.id}}</p></div>
+            <div class="col l12"><p>{{data.locacion}}</p></div>
+            <div class="col l12"><small id="subtitulo">{{data.oferta}}</small></div>
             
-            <div class="col l6"><span>$3,400,000</span></div>
+            <div class="col l6"><span>{{data.precio}}</span></div>
             <div class="col l6 right-align boton"><button>Ver más</button></div>
           </div>
         </div>

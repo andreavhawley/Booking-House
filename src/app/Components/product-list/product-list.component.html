@@ -16,12 +16,9 @@
 
 </div>
 <div class="row">
-    <div class="col l12 push-l1">
-        <app-product></app-product>
-        <app-product></app-product>
-        <app-product></app-product>  
+    <div class="col l12 push-l1"> <!--estoy creando una variable de nuestra lista de proyectos -->
+        <app-product *ngFor="let product of productService.products" [data] = "product"></app-product> 
     </div>
-    
 </div>
 
     
