@@ -4,5 +4,9 @@
 export interface patrimonio {
     id: string
     title: string
+    locacion: string
+    oferta: string 
+    precio: number
     img: string
+
 }
