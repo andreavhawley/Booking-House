@@ -33,6 +33,11 @@
     transform: scale(1.03);
 }
 
+.body {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .about{
     background-color: #F6F8F7;
 }
