@@ -1,14 +1,24 @@
 [
     {
-        "id_Asignaciones" : "01",
-        "nombre_Asignaciones" : "Matemáticas",
-        "status_asignaciones" : "disponible", 
-        "precio" : "$1,200"
+        "id" : "Casa en",
+        "locacion" : "Montecarlo I",
+        "oferta" : "renta", 
+        "precio" : "$3,400,000",
+        "img" : "1"
     },
     {
-        "id_Asignaciones" : "01",
-        "nombre_Asignaciones" : "Matemáticas",
-        "status_asignaciones" : "disponible", 
-        "precio" : "$1,200"
+        "id" : "Casa en",
+        "locacion" : "Colonia Pro-Hogar",
+        "oferta" : "renta", 
+        "precio" : "$1,600,000",
+        "img" : "2"
+    },
+    {
+        "id" : "Casa en",
+        "locacion" : "Colonia Independencia",
+        "oferta" : "venta", 
+        "precio" : "$2,690,000",
+        "img" : "3"
     }
+    
 ]

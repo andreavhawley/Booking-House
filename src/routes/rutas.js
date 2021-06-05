@@ -10,8 +10,23 @@ const{Router} = require('express');
 //nos falta inicializar la variable router
 const router = Router();
 
-const usuarios  = require('./data.json');
-console.log(usuarios);
+const productos  = require('./data.json');
+console.log(productos);
+
+router.get('/', (req,res)=> {
+    res.json(productos);
+});
+
+router.get('/:id', (req,res) => {
+    const {id} = req.params;
+    productos.forEach(producto => {
+        if(producto.id == id){
+            res.json(producto);
+        }
+    });
+    console.log(id);
+});
+
 //cambiamos 'app' por 'router'
 router.get('/', (req, res) => {
     const data = {

@@ -9,6 +9,8 @@ const { route } = require('./routes/rutas');
 //vamos a crear constantes dentro de nuestro index
 //AQUÍ SOLO ESTAMOS CONFIGURANDO NUESTRO SERVIDOR
 
+const cors = require ('cors');
+
 
 //MORGAN --> supongamos que queremos estar parceando todos estos errores que nos está saliendo, para eso nos servira morgan
 //a morgan le podemos dar un paramtro
@@ -20,13 +22,15 @@ const { route } = require('./routes/rutas');
 //dentro de app
 //app como variable global
 app.set('port', 3000);
+app.set('json spaces',2);
 
 // uno de los MIDDLEWARES. Morgan no es el unico que podamos a utilizar
 app.use(morgan('dev'));
 app.use(express.json()); //modulo express: tiene un modulo que nos puede servir para parsear toda la info que venga desde los jsons 
-app.set('json spaces',2);
+app.use(cors());
+
 //RUTAS---------------------**********
-app.use('/api/juegos', require('./routes/rutas'));
+app.use('/api/productos', require('./routes/rutas'));
 
 //Ahora ya podemos decir esto: empezando servidor
 app.listen(app.get('port'));
