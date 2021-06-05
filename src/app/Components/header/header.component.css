@@ -4,3 +4,7 @@ div{
     padding: 0px;
     background-color: #3d3d3d;
 }
+
+.active {
+    color: #326AC9 !important;
+}
