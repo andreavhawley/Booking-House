@@ -1,6 +1,6 @@
 .cat{
     padding: 30px 5%;
-    background: url("../../../assets/imgs/portadaCatalogo.jpg");
+    background: url("../../../assets/imgs/3.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -11,7 +11,6 @@
     font-weight: bold;
     top: 250px;
     left: 120px;
-    color: #ffffff;
 }
 
 a {
