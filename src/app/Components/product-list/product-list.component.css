@@ -1,9 +1,16 @@
 .cat{
-    padding: 30px 5%;
+    padding: 100px 5%;
     background: url("../../../assets/imgs/portadaCatalogo.jpg");
     background-position: center;
     background-size: cover;
-    
+}
+
+.first-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 6vw;
+    font-weight: bold;
+    top: 250px;
+    left: 120px;
 }
 
 a {
