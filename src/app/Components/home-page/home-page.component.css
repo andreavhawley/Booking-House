@@ -7,7 +7,10 @@
 
 p{
     font-family: 'Montserrat';
+    text-align: justify;
 }
+
+
 .content{
     color: #fff;
     font-family: 'Playfair Display', serif;
@@ -15,9 +18,13 @@ p{
 }
 
 h1 {
-    font-size: 4vw;
-    font-weight: bold;
+    font-size: 1vw;
     font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
 }
 
 .custom-btn {
@@ -47,7 +54,6 @@ h1 {
 .body {
     margin-left: 7%;
     margin-right: 7%;
-    font-family: 'Playfair Display', serif;
 }
 
 .body h4 {

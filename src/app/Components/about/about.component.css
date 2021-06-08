@@ -1,48 +1,61 @@
-body{
-    background-color: whitesmoke;
-}
 p {
     text-align: justify;
+    font-family: 'Montserrat';
 }
 
-#title {
+h1 {
     text-align: left;
+    font-family: 'Playfair Display', serif;
 }
 
-.top{
+.top {
+    padding: 180px 5%;
+    background-image: url('https://www.specialplacesofcostarica.com/wp-content/uploads/2021/02/Casa-Roja-7.jpg');
+    background-position: center;
+    background-size: cover;
     width: 100%;
     overflow: hidden;
     display: flex;
 }
 
-#title{
-    font-size:3vw;
-    font-weight: 700;
-    font-family:serif;
-    margin-bottom: 0;
-    margin-right: 0!important;
-}
 
-#left{
-    width: 60%;
-    overflow: hidden;
-}
-#left img{
-    height: 100%;
-}
-
-#right{
-    width: 40%;
-    padding: 50px;
-    padding-right: 200px;
-    text-align: center;
-    margin: auto;
-}
 h1{
     font-weight: bold;
 }
 
+h2{
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+}
 
+p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+#right {
+    padding: 50px;
+    text-align: justify;
+    margin: 20px;
+    
+}
+.row {
+    align-content: left;
+    justify-content: left;
+    text-align: left;
+    color: #ffffff;
+    align-self: center;
+}
+
+  .a, .b, .c , .d {
+      background-color:#326AC9;
+      width: 240px;
+      height: 240px;
+      float: left;
+      padding: 20px;
+      margin: 20px;
+      align-self: center;
+  }
 
 /***1200px***/
 @media only screen and (max-width:1200px){
