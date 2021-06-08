@@ -1,6 +1,13 @@
 body{
     background-color: whitesmoke;
 }
+p {
+    text-align: justify;
+}
+
+#title {
+    text-align: left;
+}
 
 .top{
     width: 100%;

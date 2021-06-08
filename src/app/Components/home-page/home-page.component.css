@@ -1,12 +1,23 @@
 .home{
-    padding: 300px 5%;
+    padding: 180px 5%;
     background-image: url('../../../assets/rsc/background.jpg');
     background-position: center;
     background-size: cover;
 }
 
+p{
+    font-family: 'Montserrat';
+}
 .content{
     color: #fff;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
 }
 
 .custom-btn {
@@ -36,6 +47,7 @@
 .body {
     margin-left: 7%;
     margin-right: 7%;
+    font-family: 'Playfair Display', serif;
 }
 
 .body h4 {
